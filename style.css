@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.left{
+    cursor: pointer;
+}
+.right{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.right li{
+    cursor: pointer;
+}
