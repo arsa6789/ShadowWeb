@@ -1,22 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family:  "Changa One",sans-serif;
 }
-.navBar{
+body{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqqDxwQwrXR8bYrU4mg_Szo8EAhwamOF876IElBIKxmw&s=10');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topBar{
+    position: absolute;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    background-color: rgb(119, 119, 121);
+    color: #000;
+}
+.innerContent{
     display: flex;
     justify-content: space-between;
-    font-size: 15px;
 }
-.left{
-    cursor: pointer;
+.innerContent .eading a{
+    text-decoration: none;
+    color: #000;
+    font-style: normal;
 }
-.right{
-    list-style: none;
-    display: flex;
-    gap: 20px;
+#mydiv{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
 }
-.right li{
-    cursor: pointer;
+#mydivheader{
+    padding: 20px;
+    cursor: move;
+    z-index: 10;
+    background-color: #303030;
+    color: #fff;
+}
+#mydiv p{
+    padding-top: 50px;
+    
 }
